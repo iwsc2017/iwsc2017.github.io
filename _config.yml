@@ -1,0 +1,27 @@
+# Site settings
+title: IWSC 2017
+author:
+  name: IWSC 2017
+  email: iwsclones@gmail.com
+  github:  iwsc2017
+  twitter: iwsc2017
+description: > # this means to ignore newlines until "baseurl:"
+  Software clones are often a result of copying and pasting as an act of ad-hoc reuse by programmers, and can occur at many levels, from simple statement sequences to blocks, methods, classes, source files, subsystems, models, architectures and entire designs, and in all software artifacts (code, models, requirements or architecture documentation, etc.). Software clone research is of high relevance for software engineering research and practice today.
+keywords: IWSC Software Clones Workshop
+baseurl: ""
+url: "http://iwsc2017.github.io"
+repo: https://github.com/iwsc2017/iwsc2017.github.io
+
+# Build settings
+timezone: America/New_York
+encoding: utf-8
+markdown: kramdown
+theme: minima
+permalink: none
+gems:
+  - jekyll-sitemap
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md

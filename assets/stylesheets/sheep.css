@@ -1,0 +1,23 @@
+#sheep {
+  float: left;
+}
+#sheep span {
+  float: left;
+}
+
+.sheep {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(/assets/images/sheep.png);
+  background-repeat: no-repeat;
+}
+.sheep_white {
+  background-position: 0px 0px;
+}
+.sheep_black_white {
+  background-position: 0px -32px;
+}
+.sheep_black {
+  background-position: 0px -64px;
+}
