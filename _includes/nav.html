@@ -11,8 +11,14 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
+        <li{% if page.slug == "registration" %} class="active"{% endif %}>
+          <a href="http://saner.aau.at/registration/">Registration</a>
+        </li>
         <li{% if page.slug == "objectives" %} class="active"{% endif %}>
           <a href="/objectives.html">Objectives</a>
+        </li>
+        <li{% if page.slug == "program" %} class="active"{% endif %}>
+          <a href="/program.html">Program</a>
         </li>
         <li{% if page.slug == "cfp" %} class="active"{% endif %}>
           <a href="/cfp.html">Call for Papers</a>
